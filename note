@@ -1,0 +1,14 @@
+dot(.) is used for class
+hash(#) is used for id
+
+id should be unique always
+class may or may not be unique
+
+id_name.innerHTML="suman kumar "//by running  this in our console we can change entire thing which is inside id_name by suman kumar 
+
+
+h1,h2,..., these are tagname
+
+we have to write script just above the closing body
+
+console.assert(a==b) //it is used for comparing the element,if true then fine else it will fail
