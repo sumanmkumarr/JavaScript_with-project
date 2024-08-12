@@ -169,13 +169,66 @@
 
 // break(it break the loop and exit from loop) and conitue(it leave the particular condition then continue)
 
-let arr3=[5,7,3,null,true];
-for(let i=0;i<arr3.length;i++)// it will print only 5,7
-{
-    if(i==2)
-    {
-        break;
-    }
-    console.log(arr3[i]);
-}
+// let arr3=[5,7,3,null,true];
+// for(let i=0;i<arr3.length;i++)// it will print only 5,7
+// {
+//     if(i==2)
+//     {
+//         break;
+//     }
+//     console.log(arr3[i]);
+// }
+
+// for(let i=0;i<arr3.length;i++)// it will print 5,7,null,true
+// {
+//     if(i==2)
+//     {
+//         continue;
+//     }
+//     console.log(arr3[i]);
+// }
+
+
+
+// array method
+// let arr4=[5,8,"suman",true];
+// console.log(arr4.length);//it will print length of array
+// arr4.pop();// it will remove or delete the last element
+// arr4.push("aman");// it will push aman at last
+// arr4.shift();// it will remove or delete the first element
+// arr4.unshift(9);// it will add 9 at first
+// console.log(arr4);
+
+
+
+// string method
+// let str="my name is suman kumar kumar";
+// console.log(str.length);// it will print length of string
+// console.log(str.indexOf("suman"));// it will print index of suman
+// console.log(str.indexOf("kumar"));// it will print index of first kumar word
+// console.log(str.lastIndexOf("kumar"));// it will print index of last kumar word
+
+// console.log(str.slice(3,6));// it will print index 2,3,4 element
+
+// d=str.replace("suman","aman");// it will replace suman by aman,(replace is used for replace 1st occurance only)
+// console.log(d,str);
+
+
+// date
+// let mydate=new Date();
+// console.log(mydate);// it will give date and day
+// console.log(mydate.getTime());// it will give date in second
+// console.log(mydate.getFullYear());// it will give year
+// console.log(mydate.getDay());// it will give day 0-sun,1-mon,2-tue,....
+// console.log(mydate.getMinutes());//it will give minute
+// console.log(mydate.getHours());//it will give hour
+
+
+// DOM manipulation
+let i=document.getElementById("click");// by using this we can perform operation on element which comes under id=click
+console.log(i);
+
+let c=document.getElementsByClassName("container"); // using this this we can perform operation on element which comes under class=container
+console.log(c);
+
 
