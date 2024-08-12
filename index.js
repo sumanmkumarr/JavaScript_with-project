@@ -123,3 +123,59 @@
 //     console.log("less");
 // }
 
+
+
+// for loop 
+// var arr=[3,4,55,4,2]
+// for(var i=0;i<arr.length;i++)
+// {
+//     console.log(arr[i]);
+// }
+
+// iterate using forEach
+// arr.forEach(function(i)
+// {
+//     console.log(i);
+// })
+
+
+
+// const - it is constant
+// const a=0;
+
+
+// let - we should use let insted of var because it is a good practice
+
+// while loop
+// let arr1=[2,6,8,9,4,5];
+// let i=0;
+// while(i<arr1.length)
+// {
+//     console.log(arr1[i]);
+//     i++;
+// }
+
+
+
+// do while loop
+// let arr2=[9,6,4,8,2];
+// let i=0;
+// do
+// {
+//    console.log(arr2[i]);
+//    i++
+// }while(i<arr2.length)
+
+
+// break(it break the loop and exit from loop) and conitue(it leave the particular condition then continue)
+
+let arr3=[5,7,3,null,true];
+for(let i=0;i<arr3.length;i++)// it will print only 5,7
+{
+    if(i==2)
+    {
+        break;
+    }
+    console.log(arr3[i]);
+}
+
