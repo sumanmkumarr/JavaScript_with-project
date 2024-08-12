@@ -224,11 +224,31 @@
 // console.log(mydate.getHours());//it will give hour
 
 
-// DOM manipulation
+// DOM (DOCUMENT OBJECT MODEL) manipulation
+//1.id
 let i=document.getElementById("click");// by using this we can perform operation on element which comes under id=click
 console.log(i);
 
+
+//2.class
 let c=document.getElementsByClassName("container"); // using this this we can perform operation on element which comes under class=container
 console.log(c);
 
+//c[0].style.background="black";// here we are changing background by accessing class
 
+// we can add new class also
+c[0].classList.add("qwert");
+
+
+// we can remove class also
+c[0].classList.remove("qwert");
+
+
+// we can access inner text and inner html also of class and id
+console.log(c[0].innerHTML);
+console.log(c[0].innerText);
+
+
+// tag
+ta=document.getElementsByTagName("button");// by using this we can perform operation on tag name also
+console.log(ta);
