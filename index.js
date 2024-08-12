@@ -35,6 +35,91 @@
 // console.log(marks);
 
 //booleans
-var a=true;
-var b=false;
-console.log(a,b);
+// var a=true;
+// var b=false;
+// console.log(a,b);
+
+
+// undefined-when we not store any value in declared varible then it result undefined
+// var und;
+// console.log(und);
+
+
+// null
+// var n=null;
+// console.log(n);
+
+
+/*At a very high level ,there are two types of data type 
+1)primitive data type - Int,string,boolean,undefined,null,symbol
+2)reference data type - array,object
+*/
+
+
+//array
+// var arr=[1,3,6,3,7,"hvdfedfe",7,"suman"];
+// console.log(arr);
+
+
+
+// operator in javascript
+// arithmetic - +,-,*,%
+// var a=100;
+// var b=40;
+// console.log("a+b is ",a+b);
+
+//assignment operator
+// var q=8;
+// var w=q;
+// w +=2//w=w+2
+// w -=2//w=w-2
+// w *=2//w=w*2
+// console.log(w);
+
+
+// comparision operator - >,>=,<,<=,==
+// var z=5;
+// var r=9;
+// console.log(z==r)// it will print false
+// console.log(z<r)// it will print true
+
+// logical operator - &&(and),||(or),!(not)
+// console.log(true && true);
+// console.log(false || false);
+// console.log(!false);
+
+
+// function
+// DRY = do not repeat yourself
+// function avg(a,b)
+// {
+//     return (a+b)/2;
+// }
+// c1=avg(2,7.9);
+// c2=avg(9,4);
+// console.log(c1,c2);
+
+
+// conditional - if else,if else ladder
+// var age=8;
+// if(age>10)
+// {
+//     console.log("not kid");
+// }
+// else{
+//     console.log("kid");
+// }
+
+// var f=10;
+// if(f>20)
+// {
+//     console.log("twenty");
+// }
+// else if(f>15)
+// {
+//     console.log("fifteen");
+// }
+// else{
+//     console.log("less");
+// }
+
