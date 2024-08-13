@@ -226,29 +226,45 @@
 
 // DOM (DOCUMENT OBJECT MODEL) manipulation
 //1.id
-let i=document.getElementById("click");// by using this we can perform operation on element which comes under id=click
-console.log(i);
+// let i=document.getElementById("click");// by using this we can perform operation on element which comes under id=click
+// console.log(i);
 
 
-//2.class
-let c=document.getElementsByClassName("container"); // using this this we can perform operation on element which comes under class=container
-console.log(c);
+// //2.class
+// let c=document.getElementsByClassName("container"); // using this this we can perform operation on element which comes under class=container
+// console.log(c);
 
-//c[0].style.background="black";// here we are changing background by accessing class
+// //c[0].style.background="black";// here we are changing background by accessing class
 
-// we can add new class also
-c[0].classList.add("qwert");
-
-
-// we can remove class also
-c[0].classList.remove("qwert");
+// // we can add new class also
+// c[0].classList.add("qwert");
 
 
-// we can access inner text and inner html also of class and id
-console.log(c[0].innerHTML);
-console.log(c[0].innerText);
+// // we can remove class also
+// c[0].classList.remove("qwert");
 
 
-// tag
-ta=document.getElementsByTagName("button");// by using this we can perform operation on tag name also
-console.log(ta);
+// // we can access inner text and inner html also of class and id
+// console.log(c[0].innerHTML);
+// console.log(c[0].innerText);
+
+
+// // tag
+// ta=document.getElementsByTagName("button");// by using this we can perform operation on tag name also
+// console.log(ta);
+
+// // we can create element also with help of javascript
+// created=document.createElement('p');// p is paragraph
+// created.innerText="this is another paragraph";
+// ta[0].appendChild(created);
+
+// created2=document.createElement("b");// b is bold
+// created2.innerText="this is bold";
+// ta[0].replaceChild(created2,created);// it replace 
+
+
+// selecting using query
+let sel=document.querySelector('.container');// it will return first container class
+console.log(sel);
+
+
