@@ -374,18 +374,25 @@ function clicked()
 
 //JSON - javascript object notation  // it is used for transmitting data in web application
 // JSON accept double quote not single quote
-obj={"name":"suman","roll":283};// if we want to convert this object into JSON format then we can not use single quote,we have to use in this case only double quote
+// obj={"name":"suman","roll":283};// if we want to convert this object into JSON format then we can not use single quote,we have to use in this case only double quote
 
-// convert obj to JSON
-jso=JSON.stringify(obj);// it is used to convert object to JSON
-console.log(jso);
-console.log(typeof jso);// typeof is used to know the type of variable,that is ,it is int,object,string,....
+// // convert obj to JSON
+// jso=JSON.stringify(obj);// it is used to convert object to JSON
+// console.log(jso);
+// console.log(typeof jso);// typeof is used to know the type of variable,that is ,it is int,object,string,....
 
-// parse is also used for conversion
-parsed=JSON.parse(`{"name":"suman","roll":283}`);
-console.log(typeof parsed);
+// // parse is also used for conversion
+// parsed=JSON.parse(`{"name":"suman","roll":283}`);
+// console.log(typeof parsed);
 
 
+
+//ECMAScript -is a standard for scripting languages, including JavaScript, JScript, and ActionScript. It is best known as a JavaScript standard intended to ensure the interoperability of web pages across different web browsers.
+
+
+//Template literals - backticks
+// a=34
+// console.log(`value of a is ${a}`)
 
 
 
