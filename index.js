@@ -264,11 +264,11 @@
 
 
 // selecting using query
-let sel=document.querySelector('.container');// it will return first container class
-console.log(sel);
+// let sel=document.querySelector('.container');// it will return first container class
+// console.log(sel);
 
-let sel2=document.querySelectorAll('.container');//it will return all the class which name is container
-console.log(sel2);
+// let sel2=document.querySelectorAll('.container');//it will return all the class which name is container
+// console.log(sel2);
 
 
 // event in javascript - onclick,onload,...,
@@ -327,5 +327,18 @@ function clicked()
 // })
 
 // arrow function
+// function summ(a,b)
+// {
+//     return a+b;
+// }
+// console.log(summ(9,7));
 
-// setTimeout and setinterval
+// // instead of using function we can use following thing also to declare or to write function 
+// summ1=(a,b)=>{
+//     return a+b;
+// }
+// console.log(summ1(8,4));
+
+
+
+// setTimeout and setInterval
