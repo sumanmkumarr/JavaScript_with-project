@@ -267,4 +267,65 @@
 let sel=document.querySelector('.container');// it will return first container class
 console.log(sel);
 
+let sel2=document.querySelectorAll('.container');//it will return all the class which name is container
+console.log(sel2);
 
+
+// event in javascript - onclick,onload,...,
+function clicked()
+{
+    console.log("click is done");
+}
+
+// window.onload=function()
+// {
+//     console.log("reload is done");
+// }
+
+// first.addEventListener("click",function()// first is id which we defined in index.html page,instead of that we can use class name also like container,...
+// // when we click on first element then following function is called
+// {
+//     console.log("clicked on container ");
+// })
+
+
+// first.addEventListener("mouseover",function() // when mouse will go to first element area then it will call function
+// {
+//     console.log("mouse on first id")
+// })
+
+// first.addEventListener("mouseout",function()// when mouse will go outside the first element then it will call function
+// {
+//     console.log("mouse is outside");
+// })
+
+
+// first.addEventListener("mouseup",function()
+// {
+//     console.log("mouse is up");
+// })
+
+// first.addEventListener("mousedown",function()
+// {
+//     console.log("mouse is down");
+// })
+
+
+
+// while call event we can modify the data also like below 
+// let prev=document.querySelectorAll(".container")[1].innerHTML;
+// first.addEventListener("mouseup",function()
+// {
+//     document.querySelectorAll(".container")[1].innerHTML=prev;
+//     console.log("mouse is up");
+// })
+
+// first.addEventListener("mousedown",function()
+// {
+//     document.querySelectorAll(".container")[1].innerHTML= "<b> we have clicked </b>";
+//     console.log("mouse is down");
+// })
+
+// arrow function
+
+// setTimeout and setinterval
