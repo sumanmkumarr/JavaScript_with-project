@@ -342,3 +342,51 @@ function clicked()
 
 
 // setTimeout and setInterval
+// logkaro=()=>
+// {
+//     document.querySelectorAll('.container')[0].innerHTML=" <p> this is paragraph of setTimeout </p>"
+//     console.log("set timeout is called");
+// }
+// q=setTimeout(logkaro,2000);// it will call function logkaro after 2 sec
+// // clearTimeout is used for cancel setTimeout
+// clearTimeout(q);
+
+
+
+// logkaro2=()=>
+// {
+//     document.querySelectorAll('.container')[1].innerHTML="<b> this is bold of setInterval </b>";
+//     console.log("set interval is called");
+// }
+// w=setInterval(logkaro2,3000);// it will call function logkaro2 after every 3 sec
+// clearInterval(w);
+
+
+// localStorage
+// localStorage.setItem('name','suman');
+// localStorage 
+// localStorage.getItem('name');
+// localStorage.removeItem("name");// it used for remove the item
+// localStorage.clear();// it used for clear all local stored data
+
+
+
+
+//JSON - javascript object notation  // it is used for transmitting data in web application
+// JSON accept double quote not single quote
+obj={"name":"suman","roll":283};// if we want to convert this object into JSON format then we can not use single quote,we have to use in this case only double quote
+
+// convert obj to JSON
+jso=JSON.stringify(obj);// it is used to convert object to JSON
+console.log(jso);
+console.log(typeof jso);// typeof is used to know the type of variable,that is ,it is int,object,string,....
+
+// parse is also used for conversion
+parsed=JSON.parse(`{"name":"suman","roll":283}`);
+console.log(typeof parsed);
+
+
+
+
+
+
